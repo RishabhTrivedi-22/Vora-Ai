@@ -16,7 +16,7 @@ const FaqItem = ({ item, index }) => {
           setActiveId(activeId === item.id ? null : item.id);
         }}
       >
-        <div className="flex-1">
+        <div className="flex-1"> 
           <div className="small-compact mb-1.5 text-p3 max-lg:hidden">
             {index < 10 ? "0" : ""}
             {index}
